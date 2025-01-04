@@ -1,0 +1,8 @@
+Generate a token first since Github no longer accepts account passwords when authenticating Git operations and requires the use of token-based authentication beginning August 13 2021.
+
+How to generate a token Go to the settings, then got to developer settings then select personal access tokens(3rd option) click on the button "Generate new token" on the top right Enter a note, select the expiration date, and check the scope options and click generate button at the bottom. Copy the token generated. This is what we shall replace with the token in 2nd instruction below.
+
+git remote add origin https://github.com/username/directory-name.git
+git remote set-url origin https://<token>@github.com/username/directory-name.git
+git branch -M main
+git push -u origin main
