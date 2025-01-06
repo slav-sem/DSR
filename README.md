@@ -9,7 +9,7 @@ The purpose of this project is ________. (Describe the main goals of the project
 ### Collaborators
 |Name     |  Github Page   |  Personal Website  |
 |---------|-----------------|--------------------|
-|Iskriyana | [iskriyana](https://github.com/Iskriyana) |
+
 
 ### Methods Used
 * Inferential Statistics
